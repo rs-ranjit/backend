@@ -2,12 +2,23 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module"
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "dev":"nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rs-ranjit/backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/rs-ranjit/backend/issues"
+  },
+  "homepage": "https://github.com/rs-ranjit/backend#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
